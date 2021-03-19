@@ -5,4 +5,4 @@ const sampleJS = {
   lastname: "natarajan",
 };
 
-fs.writeFileSync("./src/newFile.json", JSON.stringify(sampleJS));
+fs.writeFileSync("src/newFile.json", JSON.stringify(sampleJS));

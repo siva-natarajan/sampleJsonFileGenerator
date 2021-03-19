@@ -3,4 +3,5 @@
 set -e
 
 
-node ./src/createJson.js
+# node ./src/createJson.js
+echo "hello world" > src/newFile.txt
