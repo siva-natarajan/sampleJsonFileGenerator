@@ -8,7 +8,7 @@
 # IFS=$'\n'
 # readContent=$(<src/newFile.txt)
 # echo "$readContent"
-cp src/untested.json src/newFile.json
+cp src/untested.json src/another/folder/newFile.json
 
 # coverageReportMessage=$(curl -H "Accept: application/json" -H "Content-Type:
 # application/json" -X POST -d '{"resultDescription":"how are you", "channel":
